@@ -1,0 +1,375 @@
+{
+  "took" : 178,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1453,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1XpSk10U4NVIUj_O",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:07.201Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Topbeat\\topbeat.exe\" -c topbeat.yml -e -v -d *",
+          "cpu" : {
+            "user" : 906,
+            "user_p" : 0.0039,
+            "system" : 1671,
+            "total" : 2577,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 18083840,
+            "rss" : 18817024,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "topbeat.exe",
+          "pid" : 7460,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "system",
+      "_id" : "AVQl1XpSk10U4NVIUj_T",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:07.380Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 47434843,
+          "user_p" : 0.048,
+          "nice" : 0,
+          "system" : 17576609,
+          "system_p" : 0.0254,
+          "idle" : 518387890,
+          "iowait" : 0,
+          "irq" : 0,
+          "softirq" : 0,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0,
+          "load5" : 0,
+          "load15" : 0
+        },
+        "mem" : {
+          "total" : 2020892672,
+          "used" : 1614368768,
+          "free" : 406523904,
+          "used_p" : 0.8,
+          "actual_used" : 931278848,
+          "actual_free" : 1216073728,
+          "actual_used_p" : 0.46
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1XpSk10U4NVIUj_a",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:07.592Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "igfxTray.exe ",
+          "cpu" : {
+            "user" : 218,
+            "user_p" : 0,
+            "system" : 281,
+            "total" : 499,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 13094912,
+            "rss" : 7000064,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "igfxTray.exe",
+          "pid" : 7972,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1XpSk10U4NVIUj_g",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:07.679Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\Sony\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background",
+          "cpu" : {
+            "user" : 218,
+            "user_p" : 0,
+            "system" : 734,
+            "total" : 952,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 5349376,
+            "rss" : 5935104,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "OneDrive.exe",
+          "pid" : 2600,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1XpSk10U4NVIUj_l",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:07.741Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\SettingSyncHost.exe -Embedding",
+          "cpu" : {
+            "user" : 19468,
+            "user_p" : 0,
+            "system" : 13875,
+            "total" : 33343,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 17338368,
+            "rss" : 1474560,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "SettingSyncHost.exe",
+          "pid" : 7196,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1X5Hk10U4NVIUj_3",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:08.086Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/7DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Stable_EthersuggestPrefix_A4/PasswordBranding/Disabled/*PasswordGeneration/Disabled/PreRead/Default/*QUIC/FlagDisabled/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group6/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_67/*UMA-Uniformity-Trial-10-Percent/group_01/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_11/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --extension-process --enable-webrtc-hw-h264-encoding --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel=\"6544.2.991095348\\1290829028\" /prefetch:1",
+          "cpu" : {
+            "user" : 546,
+            "user_p" : 0,
+            "system" : 218,
+            "total" : 764,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 25214976,
+            "rss" : 17416192,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 2924,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1X5Hk10U4NVIUj_4",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:08.149Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\cmd.exe  /K elasticsearch.bat",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 46,
+            "total" : 46,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 1744896,
+            "rss" : 2895872,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "cmd.exe",
+          "pid" : 8956,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1X5Hk10U4NVIUj_7",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:08.211Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/7DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/*MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Stable_EthersuggestPrefix_A4/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/FlagDisabled/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group6/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_67/*UMA-Uniformity-Trial-10-Percent/group_01/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_04/*UMA-Uniformity-Trial-5-Percent/group_11/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel=\"6544.5.1881282911\\670856808\" /prefetch:1",
+          "cpu" : {
+            "user" : 468,
+            "user_p" : 0,
+            "system" : 218,
+            "total" : 686,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 21868544,
+            "rss" : 15925248,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 9728,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1X5Hk10U4NVIUj_9",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:08.268Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" --type=ppapi --channel=\"6544.7.1063767689\\1025034705\" --ppapi-flash-args --lang=en-US --device-scale-factor=1 --ignored=\" --type=renderer \" /prefetch:3",
+          "cpu" : {
+            "user" : 296,
+            "user_p" : 0,
+            "system" : 125,
+            "total" : 421,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 11943936,
+            "rss" : 15339520,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 5716,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQl1X5Hk10U4NVIUkAD",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T20:07:08.419Z",
+        "beat" : {
+          "hostname" : "Rajat",
+          "name" : "Rajat"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Topbeat\\topbeat.exe\" -c topbeat.yml -e -v -d *",
+          "cpu" : {
+            "user" : 1046,
+            "user_p" : 0.4614,
+            "system" : 2093,
+            "total" : 3139,
+            "start_time" : "Sep28"
+          },
+          "mem" : {
+            "size" : 18608128,
+            "rss" : 19087360,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "topbeat.exe",
+          "pid" : 7460,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "RAJAT\\Sony"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
